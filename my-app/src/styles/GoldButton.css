@@ -1,0 +1,28 @@
+.gold-button .btn{
+    background-image: linear-gradient(to bottom, #2d2c2c, #ab9717);
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 30px;
+    border-radius: 500px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ab9717;
+    border: none;
+    transition: all 0.3s ease;
+}
+.gold-button .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 22, 0, 0.9);
+    background-color: #2d2c2c;
+}
+
+.gold-button .btn:focus {
+    outline: none;
+}
+
+.gold-button:last-of-type {
+    margin-bottom: 0;
+}

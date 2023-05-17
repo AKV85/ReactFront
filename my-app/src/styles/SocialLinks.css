@@ -1,0 +1,17 @@
+.SocialLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.SocialLinks a {
+    margin-right: 20px;
+    font-size: 60px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .SocialLinks a {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+.hero-container {
+    margin-top: 100px;
+    background-image: url("../images/akvLogos.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}

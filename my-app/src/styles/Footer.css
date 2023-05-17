@@ -1,0 +1,49 @@
+.footer {
+    text-align: center;
+    background-color: #1F1D17;
+    color: #E0DDCC;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.footer__column {
+    width: 33.33%;
+}
+
+.footer__column-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__column-title {
+        font-size: 1rem; /* adjust font size for smaller screens */
+    }
+}
+
+.footer__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__list2 li {
+    margin-right: 10px; /* adjust the value as per your requirement */
+}
+
+.footer__list-item {
+    margin-bottom: 0.5rem;
+}
+
+.footer__list-item a {
+    color: #E0DDCC;
+    text-decoration: none;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
