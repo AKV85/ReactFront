@@ -5,7 +5,7 @@ function Main() {
     return (
         <div className="main">
             <h2>Main Page</h2>
-            <p>This website is created with AWS S3 bucket static website hosting (for primary information and developer
+            <p>This website is created with Netlify app (for primary information and developer
                 contacts). </p>
             <p>Due to this, the functionality of sending messages and subscribing to news is not
                 available.</p>
