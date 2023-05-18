@@ -11,7 +11,7 @@ function NewsletterForm() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('http://localhost:81/api/subscribers', { email });
+            const response = await axios.post('http://18.192.194.38/api/subscribers', { email });
             if (response.status === 200) {
                 setEmail('');
                 setErrors({});
