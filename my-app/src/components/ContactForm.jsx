@@ -13,7 +13,7 @@ function ContactForm() {
         event.preventDefault();
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:81/api/contacts', {
+            const response = await fetch('http://http://18.192.194.38/api/contacts', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
