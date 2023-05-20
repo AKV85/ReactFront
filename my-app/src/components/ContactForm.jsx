@@ -13,7 +13,7 @@ function ContactForm() {
         event.preventDefault();
         setIsLoading(true);
         try {
-            const response = await fetch('http://18.192.194.38/api/contacts', {
+            const response = await fetch('https://akv-cloud.site/api/contacts', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
